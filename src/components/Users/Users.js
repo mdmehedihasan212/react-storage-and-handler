@@ -12,9 +12,6 @@ const Users = () => {
         <div>
             <h1>Json Random Information</h1>
             {
-                Users.map(user => console.log(user))
-            }
-            {
                 Users.map(user => <User key={user._id} user={user}></User>)
             }
         </div>
